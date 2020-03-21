@@ -88,7 +88,7 @@ ifeq ($(ARCH),x86_64)
 	$(INSTALL_BIN) ./files/bin/x86_64 $(1)/usr/share/koolproxy/koolproxy
 endif
 ifeq ($(ARCH),aarch64)
-	$(INSTALL_BIN) ./files/bin/arm64 $(1)/usr/share/koolproxy/koolproxy
+	$(INSTALL_BIN) ./files/bin/arm $(1)/usr/share/koolproxy/koolproxy
 endif
 endef
 
